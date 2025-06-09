@@ -8,7 +8,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
   -- LSP
-  { import = "astrocommunity.pack.angular" },
+  -- { import = "astrocommunity.pack.angular" },
   -- { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.go" },
@@ -23,7 +23,7 @@ return {
   -- Colorschemes
   { import = "astrocommunity.colorscheme.nord-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.color.transparent-nvim" },
+  -- { import = "astrocommunity.color.transparent-nvim" },
   --
   -- Utils
   { import = "astrocommunity.search.grug-far-nvim" },
