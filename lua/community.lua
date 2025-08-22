@@ -8,17 +8,17 @@ return {
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
   -- LSP
-  { import = "astrocommunity.pack.angular" },
-  { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.pack.java" },
-  { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.pack.python" },
-  -- { import = "astrocommunity.pack.html-css" },
-  { import = "astrocommunity.pack.docker" },
-  { import = "astrocommunity.pack.terraform" },
+  -- { import = "astrocommunity.pack.angular" },
+  -- { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.markdown" },
+  -- { import = "astrocommunity.pack.java" },
+  -- { import = "astrocommunity.pack.go" },
+  -- { import = "astrocommunity.pack.rust" },
+  -- { import = "astrocommunity.pack.python" },
+  -- { import = "astrocommunity.pack.docker" },
+  -- { import = "astrocommunity.pack.terraform" },
   --
   -- Colorschemes
   { import = "astrocommunity.colorscheme.nord-nvim" },

@@ -1,4 +1,5 @@
-local html = require "lspconfig.configs.html"
+if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+
 -- AstroLSP allows you to customize the features in AstroNvim's LSP configuration engine
 -- Configuration documentation can be found with `:h astrolsp`
 -- NOTE: We highly recommend setting up the Lua Language Server (`:LspInstall lua_ls`)
@@ -53,16 +54,6 @@ return {
       -- the key is the server that is being setup with `lspconfig`
       -- rust_analyzer = false, -- setting a handler to false will disable the set up of that language server
       -- pyright = function(_, opts) require("lspconfig").pyright.setup(opts) end -- or a custom handler function can be passed
-      prettier = function()
-        require("null-ls").register(require("null-ls").builtins.formatting.prettier.with {
-          condition = function(utils)
-            return utils.root_has_file "package.json"
-              or utils.root_has_file ".prettierrc"
-              or utils.root_has_file ".prettierrc.json"
-              or utils.root_has_file ".prettierrc.js"
-          end,
-        })
-      end,
     },
     -- Configure buffer local auto commands to add when attaching a language server
     autocmds = {
