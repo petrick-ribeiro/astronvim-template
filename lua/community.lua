@@ -8,9 +8,9 @@ return {
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
   -- LSP
-  -- { import = "astrocommunity.pack.angular" },
+  { import = "astrocommunity.pack.angular" },
   -- { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.pack.html-css" },
+  -- { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.markdown" },
   -- { import = "astrocommunity.pack.java" },
